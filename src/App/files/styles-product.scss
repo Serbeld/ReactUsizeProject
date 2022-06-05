@@ -3434,3 +3434,111 @@ p.flag.reversibles {
 #tns1-mw {
     padding-bottom: 0px;
 }
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// Popup Styles ///////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#overlay {
+    display: block;
+    background: rgba(0, 0, 0, 0.2);
+    height: 110vh;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1200;
+}
+#overlay .content {
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    opacity: 1;
+    position: relative;
+    top: calc(42% - 165px) !important;
+    z-index: 200;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 30vw;
+}
+#overlay .content .close-icon {
+    background: #f5333f;
+    z-index: 99999;
+    padding: 0px 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    color: #ececec;
+    text-align: center;
+    line-height: 23px;
+    font-weight: bold;
+    font-size: 26px;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 1px;
+    right: -2px;
+    cursor: pointer;
+}
+#overlay .content .close-icon:hover {
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+}
+#overlay .content .wrap-input {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid #fff;
+    -webkit-box-shadow: 4px 13px 39px 11px rgba(0, 0, 0, 0.682);
+    box-shadow: 4px 13px 39px 11px rgba(0, 0, 0, 0.682);
+}
+#overlay .content .wrap-input:hover {
+    -webkit-box-shadow: 4px 13px 39px 11px rgba(0, 0, 0, 0.782);
+    box-shadow: 4px 13px 39px 11px rgba(0, 0, 0, 0.782);
+}
+#overlay .content .wrap-input:hover img {
+    -webkit-filter: contrast(1.1);
+    filter: contrast(1.1);
+}
+@media screen and (max-width: 63.9375em) {
+    #overlay .content {
+        width: 50vw;
+        top: 19vh !important;
+    }
+}
+@media screen and (max-width: 33.9375em) {
+    #overlay .content {
+        width: 95vw;
+        top: 19vh !important;
+    }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// End Popup Styles ///////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// ia size modal   ///////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.product{
+    .ai-size{
+        &.hide{
+            display: none !important;
+        }
+    }
+    
+    .ia-size-button{
+        .beta{
+            font-weight: 600;
+        }
+    }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// End ia size modal //////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////

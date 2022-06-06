@@ -1,7 +1,6 @@
-import './files/styles-menu.css';
-import './files/styles-product.css';
 import {useState} from 'react';
 import UsizeForm from '../UsizeForm';
+import TrainingModel from '../TrainingModel';
 
 function App() {
 
@@ -26,9 +25,12 @@ function App() {
           </div>
         </div>
       </div>
-      <button className='ia-size-button' onClick={onClickHide}>
-        ¿Quieres conocer tu talla? <span className='beta'> (BETA) </span>
-      </button>
+      <div className='container-info'>
+        <button className='ia-size-button' onClick={onClickHide}>
+          ¿Quieres conocer tu talla? <span className='beta'> (BETA) </span>
+        </button>
+        <TrainingModel/>
+      </div>
       
     </div>
   );

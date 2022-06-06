@@ -1,3 +1,17 @@
+// npm install @tensorflow/tfjs
+// import * as tf from '@tensorflow/tfjs';
+
+// var i = 0;
+
+// async function TestSize() {
+//     const inputData = tf.tensor2d([43,174,70], [1, 3]);
+//     const val = model(inputData);
+//     const myVal = await val.data()
+//     console.log(myVal)
+
+//     document.getElementById('divPrueba').innerHTML = '<div class="talla-ideal"><div class="talla-ideal-text">Tu talla ideal es:</div><div id="talla-ideal"></div></div>'
+// }
+
 function UsizeForm() {
     return (
         <div className="React-Form">

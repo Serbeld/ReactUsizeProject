@@ -6,7 +6,7 @@ html {
         "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #020914;
+    background: #020914 !important;
     color: #e7edf3;
     .container-info{
         width: 100%;
@@ -22,7 +22,7 @@ html {
         margin: auto;
         text-align: center;
         margin-top: 20px;
-        background: #020914;            
+        background: #020914 !important;            
         color: #e7edf3;
         .beta{
             color: #e7edf3;
@@ -36,7 +36,7 @@ html {
         }
         button{
             padding: 10px;
-            background: #91bf62;
+            background: #53a0f8;
             font-weight: 600;
             color: #ffffff;
             border-radius: 25px;
@@ -118,7 +118,7 @@ textarea::placeholder {
 //Training Model
 .training-model{
     padding: 10px;
-    background: #91bf62;
+    background: #53a0f8;
     font-weight: 600;
     color: #ffffff;
     border-radius: 25px;
